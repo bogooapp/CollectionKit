@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIScrollView {
-  public var visibleFrame: CGRect {
+  @objc open var visibleFrame: CGRect {
     return bounds
   }
   public var visibleFrameLessInset: CGRect {
